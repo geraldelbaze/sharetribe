@@ -1,4 +1,4 @@
-## installation sharetribe sur plateforme Ubuntu 14.04 (Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3)
+# installation sharetribe sur plateforme Ubuntu 14.04 (Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3)
 ## sur serveur dédié sans virtualisation 
 ##
 ## merci à Arnaud Delcasse pour son aide (et sa patience)
