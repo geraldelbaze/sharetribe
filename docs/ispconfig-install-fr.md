@@ -437,7 +437,7 @@ Vos deux services sont monitorés.
 Sharetribe est livré avec des tas d'outils et de leurs sondes pour contrôler la production.
 Mais les plateformes sont payants, quoique très performantes. Newrelic notamment.
 
-## ETAPE 9: PARAMETRAGE D'UNE COMMUNAUTE
+### Etape 9: Paramétrage d'une communauté
 
 Désormais parfaitement documenté ici : 
 https://github.com/geraldelbaze/sharetribe/blob/master/docs/customize-marketplace.md
