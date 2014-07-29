@@ -6,7 +6,7 @@ par Gérald Elbaze: contact@illacapartager.fr
 
 
 
-## installation Serveur Ubuntu 14.04 + Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3
+Etape préalable: installation Serveur Ubuntu 14.04 + Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3
 
 * suivre la procédure suivante:  http://bit.ly/1qIoQEN
 
