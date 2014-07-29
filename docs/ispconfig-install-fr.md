@@ -18,18 +18,19 @@ Etape préalable: installation Serveur Ubuntu 14.04 + Apache2, PHP, MySQL, PureF
 
 ## Rappel sur le fonctionnement de Sharetribe
 
-Sharetribre est en réalité constitué de deux éléments:
+Sharetribe est en réalité constitué de deux éléments:
 * **le dashboard** : c'est ce qui permet de proposer la création de tribu (tribe)
 	- il s'agit d'un onepage personnalisable offrant la possibilité de créer des communautés.
 	- vous pouvez voir cette page ici :https://www.sharetribe.com/ 
 
 * **les tribus (tribes)**: chacune forme une plateforme dédiée. Par exemple à un Système d'Echange Local.
 
-* Donc vous devez d'abord arbitrer ce que vous souhaitez faire:
-** un service global dont l'objet de création des communautés
-** des communautés (autant que vous voulez) simplement.
+Donc vous devez d'abord arbitrer ce que vous souhaitez faire:
+- un service global dont l'objet de création des communautés
+- des communautés (autant que vous voulez) simplement.
 
 Dans le premier cas, en tant qu'admin vous recevrez des demandes pour la création de nouvelles communautés
+
 Dans le second cas, vous choisissez d'ouvrir un ou plusieurs communautés que vous animez.
 
 **NB**
