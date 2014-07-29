@@ -46,9 +46,9 @@ Lors de son déploiement voici comment Sharetribe procède:
 
 Or avec ispconfig vous devez l'anticiper !
 
-##A faire avan de rapatrier Sharetribe
+##A faire avant de rapatrier Sharetribe
 
-### ETAPE 1: Configuration d'ISPConfig
+### Etape 1: Configuration d'ISPConfig
 
 #### Création de l'espace web et du user
 
@@ -80,7 +80,7 @@ Son groupe est de type client[x] (client1, client2...)
 Tout ce que vous ferez ensuite devrait être fait avec ce compte, sous peine de rendre impossible
 l'exécution des programmes.
 
-### Création de la base de données
+#### Création de la base de données
 Le dispositif de sharetribe suppose la création de 3 bases.
 Si vous ne souhaitez ne fonctionner qu'en production (pas de test, pas de déploiement...)
 vous pouvez créer une seule base. (#mode couillu le caribou)
@@ -89,7 +89,7 @@ Création de la base: attention bien préciser le même client et le même user
 
 Votre base de données est vide. C'est normal. Elle sera dumpée lors de l'installation de Sharetribe
 
-## ETAPE 2: INSTALLATION DE SHARETRIBE
+### Etape 2: Installation de Sharetribe
 
 * Connexion en SSH à votre serveur
 Conseil utile: ouvrir deux onglets ssh: l'un sera avec le user admin de votre serveur
@@ -115,8 +115,9 @@ Git: permet de rapatrier Sharetribe et de le maintenir à jour.
 Pour basculer: 
 `sudo -u web1 -s`
 Invite de commande vous demande mot de passe:
->  entrez mot de passe admin (celui qui vous permet de vous connecter en ssh)
-Puis 
+> entrez mot de passe admin (celui qui vous permet de vous connecter en ssh)
+Puis
+
 `cd /var/www/[lenomdevotresite]/web`  ## vous voici dans le dossier sur lequel pointe ispconfig
 et dans lequel nous allons installer Sharetribe
 
@@ -125,37 +126,42 @@ et dans lequel nous allons installer Sharetribe
 
 Un dossier sharetribe a été créé
 
-## ETAPE 3: PARAMETRAGE DE SHARETRIBE
+### Etape 3: Paramétrage de Sharetribe
 
-> cd sharetribe
+`cd sharetribe`
 
-### PARAMETRAGE DI FICHIER ACCES A LA BASE DE DONNEES
+#### Paramétrage du fichier d'accès à la bdd
 
-Fonctionnement de vi: http://bit.ly/1k5mXz4
+> Fonctionnement de vi: http://bit.ly/1k5mXz4
 
-> cp config/database.example.yml config/database.yml ## permet de créer le fichier de configuration
+`cp config/database.example.yml config/database.yml` ## permet de créer le fichier de configuration
 pour l'accès à la base de données
-> vi config/database.yml ## permet d'éditer le fichier database.yml
+
+`vi config/database.yml` ## permet d'éditer le fichier database.yml
+
     - modifier le nom de la base de données pour la partie "production"
     - modifiler le mot de passe de la base données pour la partie "production"
+
 Utilisez les informations que vous avez parametrées lors de la création de la base de données
 sous ISPConfig
 
-### PARAMETRAGE DU FICHIER CONF DE SHARETRIBE
-> cp config/config.example.yml config/config.yml
-> vi config/config.yml  ## permet d'éditer le fichier config.yml
+#### Paramétrage du fichier conf de Sharetribe
+
+`cp config/config.example.yml config/config.yml`
+
+`vi config/config.yml`  ## permet d'éditer le fichier config.yml
 
 Dans le fonctionnement décrit (classique), vous pouvez vous limitez à remplir:
 
-domain: "nomddomaine.tld" ## sans le www
+`domain: "nomddomaine.tld"` ## sans le www
 
-mail_delivery_method: smtp
+> mail_delivery_method: smtp
 
-  smtp_email_address: "smtp.gmail.com"
-  smtp_email_port: "587" ## attention dans la version d'origine ils ont oubliés les ""
-  smtp_email_user_name: "votrenomdevoite@gmail.com"
-  smtp_email_password: "votremdp"
-  smtp_email_domain: "localhost"
+  > smtp_email_address: "smtp.gmail.com"
+  > smtp_email_port: "587" ## attention dans la version d'origine ils ont oubliés les ""
+  > smtp_email_user_name: "votrenomdevoite@gmail.com"
+  > smtp_email_password: "votremdp"
+  > smtp_email_domain: "localhost"`
 
 (Mais vous pouvez aussi utilisez une boite créée avec ISPConfig sur votre domaine.)
 
