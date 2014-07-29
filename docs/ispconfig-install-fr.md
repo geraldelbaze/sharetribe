@@ -93,29 +93,39 @@ Votre base de données est vide. C'est normal. Elle sera dumpée lors de l'insta
 
 * Connexion en SSH à votre serveur
 Conseil utile: ouvrir deux onglets ssh: l'un sera avec le user admin de votre serveur
-l'autre avec user créé avec ISPConfig de la forme web[x]. Pour y accéder sudo -u web1 -s
+l'autre avec user créé avec ISPConfig de la forme web[x]. 
+
+Pour y accéder `sudo -u web1 -s`
 
 La procédure d'installation "classique" est documentée sur l'adresse suivante, mais elle demande
 à être complétée. D'où ce doc.
 https://github.com/sharetribe/sharetribe
 
-* 1- Installation de ruby, gem et git
-**AVEC VOTRE USER D'ADMINISTRATION**
+#### 1- Installation de ruby, gem et git
+
+**Avec votre user d'administration**
+
 Ruby (la version 2.1.1. Si vous avez déjà de multiples versions de Ruby, utilisez RVM)
 RubyGems / Git
-- sudo aptitude install ruby2.1.1
-- sudo gem install bundler
-- sudo aptitude install git
+`sudo aptitude install ruby2.1.1`
+`sudo gem install bundler`
+`sudo aptitude install git`
 
-Ruby: permet de faire fonctionner Ruby in Rails (langage dans lequel est développé Sharetribe)
-Gems: les différentes librairies de Ruby
-Git: permet de rapatrier Sharetribe et de le maintenir à jour.
+> Ruby: permet de faire fonctionner Ruby in Rails (langage dans lequel est développé Sharetribe)
 
-**A PARTIR DE LA ON BASCULE EN USER WEB[x]** on supposera web1
+> Gems: les différentes librairies de Ruby
+
+> Git: permet de rapatrier Sharetribe et de le maintenir à jour.
+
+**A partir de là on bascule en user web[x]** on supposera web1
+
 Pour basculer: 
+
 `sudo -u web1 -s`
+
 Invite de commande vous demande mot de passe:
-> entrez mot de passe admin (celui qui vous permet de vous connecter en ssh)
+- entrez mot de passe admin (celui qui vous permet de vous connecter en ssh)
+
 Puis
 
 `cd /var/www/[lenomdevotresite]/web`  ## vous voici dans le dossier sur lequel pointe ispconfig
