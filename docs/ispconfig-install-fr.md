@@ -10,9 +10,7 @@ Etape préalable: installation Serveur Ubuntu 14.04 + Apache2, PHP, MySQL, PureF
 
 * suivre la procédure suivante:  http://bit.ly/1qIoQEN
 
-**connexion à ispconfig**
-
-http://nomdedomaine.tld:8080
+**connexion à ispconfig** : http://nomdedomaine.tld:8080
 
 
 **PREPARATION INSTALLATION DE SHARETRIBE**
