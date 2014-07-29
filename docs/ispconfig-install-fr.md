@@ -2,8 +2,6 @@
 > sur plateforme Ubuntu 14.04 (Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3)
 sur serveur dédié
 
-> merci à Arnaud Delcasse pour son aide (et sa patience) MLG corporate ;-) par Gérald Elbaze: contact@illacapartager.fr
-
 
 
 Etape préalable: installation Serveur Ubuntu 14.04 + Apache2, PHP, MySQL, PureFTPD, BIND, Dovecot, ISPConfig 3
@@ -450,3 +448,7 @@ Je vais stocker ici les erreurs les plus fréquentes rencontrées.
 
 #### je viens de changer le domaine ou le sous-domaine et plus rien ne marche !
 > supprimer les cookies créés par les noms de domaines et de sous-domaines.
+
+### Remerciements
+> merci à Arnaud Delcasse pour son aide (et sa patience) MLG corporate ;-) par Gérald Elbaze: contact@illacapartager.fr
+
