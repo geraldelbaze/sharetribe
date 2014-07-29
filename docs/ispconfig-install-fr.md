@@ -33,13 +33,12 @@ Dans le premier cas, en tant qu'admin vous recevrez des demandes pour la créati
 
 Dans le second cas, vous choisissez d'ouvrir un ou plusieurs communautés que vous animez.
 
-> **NB**
-Sharetribe qui a développé l'outil Sharetribe commercialise pour la France une offre très intéressante
+> **NB**: Sharetribe qui a développé l'outil Sharetribe commercialise pour la France une offre très intéressante
 pour créer des communautés et en assurer l'infogérance. La distribution en logiciel libre de 
 l'outil Sharetribe repose sur ce type de services associés qui permettent de financer la poursuite 
 du développement. Donc pensez à les contacter, cela équivaut à soutenir le projet !
 
-### Pourquoi ce choix est-il fondamental ?
+**Pourquoi ce choix est-il fondamental ?**
 
 Lors de son déploiement voici comment Sharetribe procède:
 > le dashboard va automatiquement se positionner sur www.nomdomaine.tld
@@ -47,10 +46,11 @@ Lors de son déploiement voici comment Sharetribe procède:
 
 Or avec ispconfig vous devez l'anticiper !
 
-**A FAIRE AVANT DE RAPATRIER SHARETRIBE**
-## ETAPE 1: Configuration d'ISPConfig
+##A FAIRE AVANT DE RAPATRIER SHARETRIBE##
 
-### Création de l'espace web et du user
+### ETAPE 1: Configuration d'ISPConfig
+
+#### Création de l'espace web et du user
 
 Cette étape suppose que vous ayez préalablement créer un premier client sous ISPConfig.
 Si vous gérez les DNS de votre sous ISPConfig, il vous faut le régler pour les nondomain.tld
