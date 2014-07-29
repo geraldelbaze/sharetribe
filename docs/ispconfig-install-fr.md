@@ -149,6 +149,7 @@ pour l'accès à la base de données
 
 `vi config/database.yml` ## permet d'éditer le fichier database.yml
 
+
     - modifier le nom de la base de données pour la partie "production"
     - modifiler le mot de passe de la base données pour la partie "production"
 
