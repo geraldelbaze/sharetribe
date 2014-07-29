@@ -115,15 +115,15 @@ Git: permet de rapatrier Sharetribe et de le maintenir à jour.
 
 **A PARTIR DE LA ON BASCULE EN USER WEB[x]** on supposera web1
 Pour basculer: 
-> sudo -u web1 -s
+`sudo -u web1 -s`
 Invite de commande vous demande mot de passe:
 >  entrez mot de passe admin (celui qui vous permet de vous connecter en ssh)
 Puis 
-> cd /var/www/[lenomdevotresite]/web  ## vous voici dans le dossier sur lequel pointe ispconfig
+`cd /var/www/[lenomdevotresite]/web`  ## vous voici dans le dossier sur lequel pointe ispconfig
 et dans lequel nous allons installer Sharetribe
 
-> git clone git://github.com/sharetribe/sharetribe.git ## permet de rapatrier les sources 
-> ls
+`git clone git://github.com/sharetribe/sharetribe.git` ## permet de rapatrier les sources 
+`ls`
 
 Un dossier sharetribe a été créé
 
