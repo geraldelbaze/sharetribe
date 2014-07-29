@@ -18,7 +18,7 @@ http://nomdedomaine.tld:8080
 **PREPARATION INSTALLATION DE SHARETRIBE**
 **ATTENTION - A PARTIR DE LA IL FAUT ETRE TRES PRECIS** 
 
-## RAPPEL SUR LE FONCTIONNEMENT DE SHARETRIBE
+## Rappel sur le fonctionnement de Sharetribe
 
 Sharetribre est en réalité constitué de deux éléments:
 1- le dashboard : c'est ce qui permet de proposer la création de tribu (tribe)
