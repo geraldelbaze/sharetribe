@@ -46,7 +46,7 @@ Lors de son déploiement voici comment Sharetribe procède:
 
 Or avec ispconfig vous devez l'anticiper !
 
-##A FAIRE AVANT DE RAPATRIER SHARETRIBE##
+##A faire avan de rapatrier Sharetribe
 
 ### ETAPE 1: Configuration d'ISPConfig
 
