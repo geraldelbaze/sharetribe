@@ -33,7 +33,7 @@ Dans le premier cas, en tant qu'admin vous recevrez des demandes pour la créati
 
 Dans le second cas, vous choisissez d'ouvrir un ou plusieurs communautés que vous animez.
 
-**NB**
+> **NB**
 Sharetribe qui a développé l'outil Sharetribe commercialise pour la France une offre très intéressante
 pour créer des communautés et en assurer l'infogérance. La distribution en logiciel libre de 
 l'outil Sharetribe repose sur ce type de services associés qui permettent de financer la poursuite 
