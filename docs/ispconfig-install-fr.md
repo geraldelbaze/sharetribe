@@ -40,7 +40,7 @@ pour créer des communautés et en assurer l'infogérance. La distribution en lo
 l'outil Sharetribe repose sur ce type de services associés qui permettent de financer la poursuite 
 du développement. Donc pensez à les contacter, cela équivaut à soutenir le projet !
 
-## POURQUOI CE CHOIX EST FONDAMENTAL ?
+### Pourquoi ce choix est-il fondamental ?
 
 Lors de son déploiement voici comment Sharetribe procède:
 > le dashboard va automatiquement se positionner sur www.nomdomaine.tld
