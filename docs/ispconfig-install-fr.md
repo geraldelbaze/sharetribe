@@ -56,7 +56,7 @@ ainsi que pour les sous-domaines pour chacun des communautés.
 Si vous gérez les DNS chez un registrar (Gandi par ex), il vous faut le régler pour les nondomain.tld
 ainsi que pour les sous-domaines pour chacun des communautés puis attendre la propagation.
 
-*vous souhaitez ouvrir un service total sharetribe*
+**vous souhaitez ouvrir un service total sharetribe**
 ```
 Ajouter un site.
 Puis Domaine: nomdomaine.tld (sans le www)
@@ -65,7 +65,7 @@ Puis Cliquez sur la case à cocher Ruby pour pouvoir executer Ruby
 Puis Enregistrer
 ````
 
-*vous souhaitez ouvrir une ou plusieurs tribu sans portail d'ouverture de communauté*
+**vous souhaitez ouvrir une ou plusieurs tribu sans portail d'ouverture de communauté**
 ```
 Choisissez le nom de sous-domaine qui sera celui de la communauté: tribu1.nondomain.tld
 Ajouter un site.
@@ -76,6 +76,7 @@ Puis Enregistrer
 ```
 
 Automatiquement un user est créé: le format est de type web[x] (web1, web2...)
+
 Son groupe est de type client[x] (client1, client2...)
 
 **CE POINT EST FONDAMENTAL !**
