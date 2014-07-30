@@ -11,7 +11,9 @@ sur serveur dédié*
 **connexion à ispconfig** : http://nomdedomaine.tld:8080
 
 
+
 **PREPARATION INSTALLATION DE SHARETRIBE**
+
 **ATTENTION - A PARTIR DE LA IL FAUT ETRE TRES PRECIS** 
 
 ## Rappel sur le fonctionnement de Sharetribe
