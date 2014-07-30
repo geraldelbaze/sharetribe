@@ -119,9 +119,7 @@ sudo aptitude install git
 ```
 
 > Ruby: permet de faire fonctionner Ruby in Rails (langage dans lequel est développé Sharetribe)
-
 > Gems: les différentes librairies de Ruby
-
 > Git: permet de rapatrier Sharetribe et de le maintenir à jour.
 
 **A partir de là on bascule en user web[x]** on supposera web1
@@ -152,14 +150,13 @@ Un dossier sharetribe a été créé
 
 > Fonctionnement de vi: http://bit.ly/1k5mXz4
 
-`cp config/database.example.yml config/database.yml` ## permet de créer le fichier de configuration
+```
+cp config/database.example.yml config/database.yml ## permet de créer le fichier de configuration
 pour l'accès à la base de données
-
-`vi config/database.yml` ## permet d'éditer le fichier database.yml
-
-
-    - modifier le nom de la base de données pour la partie "production"
-    - modifiler le mot de passe de la base données pour la partie "production"
+vi config/database.yml ## permet d'éditer le fichier database.yml
+```
+> modifier le nom de la base de données pour la partie "production"
+> modifiler le mot de passe de la base données pour la partie "production"
 
 Utilisez les informations que vous avez parametrées lors de la création de la base de données
 sous ISPConfig
