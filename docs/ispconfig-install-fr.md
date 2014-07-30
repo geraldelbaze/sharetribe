@@ -112,9 +112,11 @@ https://github.com/sharetribe/sharetribe
 
 Ruby (la version 2.1.1. Si vous avez déjà de multiples versions de Ruby, utilisez RVM)
 RubyGems / Git
-`sudo aptitude install ruby2.1.1`
-`sudo gem install bundler`
-`sudo aptitude install git`
+````
+sudo aptitude install ruby2.1.1
+sudo gem install bundler
+sudo aptitude install git
+```
 
 > Ruby: permet de faire fonctionner Ruby in Rails (langage dans lequel est développé Sharetribe)
 
