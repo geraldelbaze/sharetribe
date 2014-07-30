@@ -169,24 +169,29 @@ sous ISPConfig
 
 Dans le fonctionnement décrit (classique), vous pouvez vous limitez à remplir:
 
-`domain: "nomddomaine.tld"` ## sans le www
-
-> mail_delivery_method: smtp
+```
+domain: "nomddomaine.tld" ## sans le www
+```
+```
+mail_delivery_method: smtp
 	smtp_email_address: "smtp.gmail.com"
 	smtp_email_port: "587" ## attention dans la version d'origine ils ont oubliés les ""
 	smtp_email_user_name: "votrenomdevoite@gmail.com"
 	smtp_email_password: "votremdp"
-	smtp_email_domain: "localhost"`
+	smtp_email_domain: "localhost"
+```
 
 (Mais vous pouvez aussi utilisez une boite créée avec ISPConfig sur votre domaine.)
 
+```
  # The address where the notifications of feedbacks from Sharetribe UI are sent
   feedback_mailer_recipients:  'A REMPLIR ICI AVEC VOTRE ADRESSE'
 
  # Global Service name
  # If you want to call this service with different name on this server, you can specify it here
  # This can also be set community specific in community.settings["service_name"]
- global_service_name: VOUS_POUVEZ_PERSONNALISER_LE_NOM
+ global_service_name: **VOUS_POUVEZ_PERSONNALISER_LE_NOM**
+```
     
 ## Etape 4: Ppoursuite de l'installation
 **AVEC VOTRE USER D'ADMINISTRATION** (ou dans l'onglet ssh de ce user)
