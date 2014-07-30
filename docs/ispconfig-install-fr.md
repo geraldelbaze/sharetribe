@@ -63,14 +63,14 @@ Puis Sous-domaine automatique : "*."
 Puis Cliquez sur la case à cocher Ruby pour pouvoir executer Ruby
 Puis Enregistrer````
 
-
-```gherkin 
+```
 Choisissez le nom de sous-domaine qui sera celui de la communauté: tribu1.nondomain.tld
 Ajouter un site.
 Puis Domaine: tribu1.nomdomaine.tld
 Puis Sous-domaine automatique : "Aucun"
 Puis Cliquez sur la case à cocher Ruby pour pouvoir executer Ruby
-Puis Enregistrer```
+Puis Enregistrer
+```
 
 Automatiquement un user est créé: le format est de type web[x] (web1, web2...)
 Son groupe est de type client[x] (client1, client2...)
